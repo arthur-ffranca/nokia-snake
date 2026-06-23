@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nokia Snake</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="scene" aria-label="Classic Nokia Snake game">
+      <section class="lcd-unit" aria-label="LCD game screen">
+        <canvas id="game" width="300" height="260" aria-label="Snake game canvas"></canvas>
+
+        <section class="controls" aria-label="Game controls">
+          <button id="pauseBtn" type="button">Pause</button>
+          <button id="startBtn" type="button">OK</button>
+          <button id="restartBtn" type="button">Restart</button>
+          <button id="soundBtn" type="button" aria-pressed="true">Sound On</button>
+        </section>
+      </section>
+    </main>
+
+    <script src="./game.js"></script>
+  </body>
+</html>
